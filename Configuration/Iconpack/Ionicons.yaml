@@ -1,0 +1,61 @@
+iconpack:
+  title: "Ionicons"
+  key: "ionicon"
+  version: 6.0.4
+  url: "https://github.com/ionic-team/ionicons"
+
+  stylesEnabled: "regular,outline,sharp"
+
+  renderTypes:
+
+    _default:
+      _default:
+        prefix: "ionicon-"
+        attributes:
+          class: "ionicon"
+      regular:
+        label: Original
+      outline:
+        label: Outline
+      sharp:
+        label: Sharp
+
+    webfont:
+      _default:
+        attributes:
+          aria-hidden: "true"
+          role: "img"
+      regular:
+        css: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/css/ionicon-original.css"
+        attributes:
+          class: "ion-original"
+      outline:
+        css: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/css/ionicon-outline.css"
+        attributes:
+          class: "ion-outline"
+      sharp:
+        css: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/css/ionicon-sharp.css"
+        attributes:
+          class: "ion-sharp"
+
+    svg:
+      regular:
+        source: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/svgs/original/"
+      outline:
+        source: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/svgs/outline/"
+      sharp:
+        source: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/svgs/sharp/"
+
+    svgInline:
+      _default:
+        attributes:
+          fill: "currentColor"
+          role: "img"
+      regular:
+        source: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/svgs/original/"
+      outline:
+        source: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/svgs/outline/"
+      sharp:
+        source: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/svgs/sharp/"
+
+  icons: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/metadata/icons.json"
