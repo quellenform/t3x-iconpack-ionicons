@@ -21,10 +21,6 @@ iconpack:
         label: Sharp
 
     webfont:
-      _default:
-        attributes:
-          aria-hidden: "true"
-          role: "img"
       regular:
         css: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/css/ionicon-original.css"
         attributes:
@@ -50,7 +46,6 @@ iconpack:
       _default:
         attributes:
           fill: "currentColor"
-          role: "img"
       regular:
         source: "EXT:iconpack_ionicons/Resources/Public/Vendor/ionicons-6.0.4/svgs/original/"
       outline:
