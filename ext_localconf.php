@@ -9,6 +9,7 @@ if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('iconpack')) {
         'EXT:iconpack_ionicons/Configuration/Iconpack/Ionicons.yaml',
         \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
             \TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class
-        )->get('iconpack_ionicons', 'configFile')
+        )->get('iconpack_ionicons', 'configFile'),
+        \Quellenform\IconpackIonicons\Configuration\IconpackConfiguration::class
     );
 }
